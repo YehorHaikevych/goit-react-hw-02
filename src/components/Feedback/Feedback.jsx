@@ -1,6 +1,6 @@
 import Styles from "./Feedback.module.css";
 
-const updateFeedback = ({
+const FeedbackDisplay = ({
   feedbackType,
   totalFeedback,
   positiveFeedbackPercentage,
@@ -16,4 +16,4 @@ const updateFeedback = ({
   );
 };
 
-export default updateFeedback;
+export default FeedbackDisplay;
